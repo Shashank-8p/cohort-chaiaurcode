@@ -19,3 +19,21 @@ bioDisplay.textContent = e.target.value
 jobInput.addEventListener('input', function(e){
 jobDisplay.textContent = e.target.value
 })
+
+
+//overkill
+// const form = document.querySelector('.form-container'); // The parent wrapper
+
+// form.addEventListener('input', function(e) {
+  
+//   // Make sure they are typing in an input or textarea
+//   if (e.target.matches('input, textarea')) {
+    
+//     // e.target.id is "nameInput". We dynamically change it to "nameDisplay"
+//     const displayId = e.target.id.replace('Input', 'Display');
+//     const displayElement = document.getElementById(displayId);
+    
+//     // Update the correct display dynamically
+//     displayElement.textContent = e.target.value || 'Not provided';
+//   }
+// });
